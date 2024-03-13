@@ -1,0 +1,35 @@
+body {
+  background-color: #ffffff;
+  padding-top: 2rem;
+  min-width: 100px;
+}
+.a {
+  background-color: #f3fdfe;
+  border: 3px double black;
+  text-align: center;
+  /* display: flex; */
+  justify-content: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+#d {
+  background-color: #bce5ff;
+  border-radius: 4px;
+  font-family: Verdana;
+}
+#d:active {
+  background-color: #f8f9f8;
+  box-shadow: 0 5px #fbdcd7;
+  transform: translateY(4px);
+}
+
+#alert {
+  min-width: 100px;
+  border-radius: 3px;
+  /* alert-padding-x: #{$alert-padding-x};
+    --#{$prefix}alert-padding-y: #{$alert-padding-y};
+    alert-margin-bottom: #{$alert-margin-bottom};
+    --#{$prefix}alert-color: inherit;
+    --#{$prefix}alert-border-color: transparent;
+    --#{$prefix}alert-border: #{$alert-border-width} solid var(--#{$prefix}alert-border-color);
+    --#{$prefix}alert-border-radius: #{$alert-border-radius}; */
+}
